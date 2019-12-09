@@ -1,0 +1,9 @@
+Building recursive functions:
+1. Identify base case
+2. Identify recursive case
+3. Get closer and closer and return when needed
+
+When to use recursion:
+1. Divided into a number of sub-problems that are smaller instances of the same problem
+2. Each instance of the sub-problem is identical in nature
+3. The solutions of each sub-problem can be combined to solve the problem at hand
