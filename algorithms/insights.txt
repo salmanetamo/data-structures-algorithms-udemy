@@ -7,3 +7,29 @@ When to use recursion:
 1. Divided into a number of sub-problems that are smaller instances of the same problem
 2. Each instance of the sub-problem is identical in nature
 3. The solutions of each sub-problem can be combined to solve the problem at hand
+
+Sorting algorithms:
+1. Quick sort: On average, it performs the best. Can be O(n^2) depending on pivot
+2. Merge sort: Good time complexity, O(n) in space complexity. If memory is an issue use quick sort
+3. Insertion sort: Good for small input or nearly sorted items
+4. Radix sort or Counting sort: They beat n * log(n) in time complexity but can only be used for integers in a given range
+5. Bubble sort and Selection sort: not very efficient, generally used for teaching purposes
+
+Search/Traversal:
+1. Linear search: Search by looping. Best case O(1) and O(n) in worst case
+2. Binary Search: Used on sorted data. log(n) in time complexity
+3. Traversal: DFS or BFS for traversing graphs or trees. O(n) in time complexity FOR BOTH
+    3.1 BFS:
+        Good for shortest paths
+        Closer nodes
+
+        Requires more memory
+
+    3.2 DFS
+        Less memory
+        Checking if path exists
+
+        Can be slow
+
+4. Shortest paths algorithms: Bellman and Dijkstra algorithms.
+Bellman handles negative weights but is slow as compared to Dijkstra's
