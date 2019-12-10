@@ -31,5 +31,11 @@ Search/Traversal:
 
         Can be slow
 
-4. Shortest paths algorithms: Bellman and Dijkstra algorithms.
+4. Shortest paths algorithms for weighted graphs: Bellman and Dijkstra algorithms.
 Bellman handles negative weights but is slow as compared to Dijkstra's
+
+When and How to use dynamic programming
+1. Problem can be divided into sub-problem
+2. Recursive solution
+3. Are there repetitive sub-problems
+4. Memoize sub-problems
